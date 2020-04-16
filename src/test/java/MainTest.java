@@ -20,6 +20,6 @@ public class MainTest {
     public void main() {
 
         System.out.println("main() Method called - MainTest");
-        assertEquals(1,1);
+        assertEquals(1,3);
     }
 }
