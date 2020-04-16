@@ -18,6 +18,8 @@ public class MainTest {
 
     @Test
     public void main() {
+
         System.out.println("main() Method called - MainTest");
+        assertEquals(1,2);
     }
 }
