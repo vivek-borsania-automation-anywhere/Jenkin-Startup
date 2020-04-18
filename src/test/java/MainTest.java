@@ -19,13 +19,19 @@ public class MainTest {
     @Test
     public void main1() {
 
-        System.out.println("main() Method called - MainTest");
+        System.out.println("main1() Method called - MainTest");
         assertEquals(1,1);
     }
     @Test
     public void main2() {
 
-        System.out.println("main() Method called - MainTest");
+        System.out.println("main2() Method called - MainTest");
         assertEquals("Vivek","Vivek");
+    }
+    @Test
+    public void main3() {
+
+        System.out.println("main3() Method called - MainTest");
+        assertEquals(true,true);
     }
 }
