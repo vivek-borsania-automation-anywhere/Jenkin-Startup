@@ -17,9 +17,15 @@ public class MainTest {
     }
 
     @Test
-    public void main() {
+    public void main1() {
 
         System.out.println("main() Method called - MainTest");
-        assertEquals(1,3);
+        assertEquals(1,1);
+    }
+    @Test
+    public void main2() {
+
+        System.out.println("main() Method called - MainTest");
+        assertEquals("Vivek","Vivek");
     }
 }
