@@ -32,6 +32,6 @@ public class MainTest {
     public void main3() {
 
         System.out.println("main3() Method called - MainTest");
-        assertEquals(true,true);
+        assertEquals("Vivek","Vivek");
     }
 }
